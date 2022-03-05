@@ -1,4 +1,4 @@
-
+#Instructions
 
 In this folder we include the DARTS model searched on cifar 10.
 W also included the best_model weights and the genotypes.
