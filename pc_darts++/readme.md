@@ -14,10 +14,19 @@ Search imagenet model
 ```python
 python train_search_imagenet.py   --tmp_data_dir ImageNetFolder   --save log_path
 ```
+You have to modified the hard coded path in the code to your paths and use 
 
+```python
+python train_search_imagenet.py     --save log_path
+```
 
 Train ImageNet Model
  ```python
 python train_imagenet.py  --tmp_data_dir ImageNetFolder   --save log_path      --auxiliary 
 ```
 
+whith hard coded paths
+
+ ```python
+python train_imagenet.py   --save log_path      --auxiliary 
+```
