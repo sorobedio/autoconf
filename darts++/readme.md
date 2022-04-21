@@ -8,7 +8,7 @@ W also included the best_model weights and the genotypes.
 ```python
 python test.py --auxiliary --model_path cifar10_model.pt
 ```
-expected results 97.52%
+expected results 97.55%
 
 To search an architecture using the proposed training princple.
 ```python
